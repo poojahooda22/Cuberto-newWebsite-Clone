@@ -51,7 +51,7 @@ main {
 
 #firstsection {
     width: 100vw;
-    min-height: 100vh;
+    min-height: 120vh;
 }
 #secondsection {
     margin-top: 15vw;
@@ -76,10 +76,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2vw 3vw;
+    padding: 2vw 2vw;
 }
 #nav img {
-    height: 7.5vw;
+    height: 3.5vw;
 }
  #right {
     display: flex;
@@ -89,26 +89,31 @@ main {
 #nav #right h4 {
     font-family: font-3;
     text-transform: lowercase;
-    font-size: 1.8vw;
+    font-size: 1vw;
     font-weight: 400;
 }
 #nav #right i {
-    font-size: 1.8vw;
+    font-size: 1.2vw;
     margin-top: 3px;
 }
 
 #firstpage-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
     width: 100vw;
-    height: 60vh;
+    min-height: 70vh;
     position: relative;
-    top: 120px;
-    left: 150px;
+    top: 10px;
+    left: 250px;
 }
 
 #head1 {
     font-family: Matter-light;
-    font-size: 9vw;
+    font-size: 7vw;
     font-weight: 300;
+    line-height: -.8;
     
 }
 
@@ -128,9 +133,9 @@ main {
   
 #videoplay {
     display: inline-block;
-    width: 167px;
-    height: 117px;
-    border-radius: 58.5px; 
+    width: 217px;
+    height: 147px;
+    border-radius: 80.5px; 
     overflow: hidden; 
     margin-right: 10px;
   }
@@ -144,13 +149,15 @@ main {
   
 #head2 {
     font-family: Matter-light;
-    font-size: 9vw;
+    font-size: 7vw;
     font-weight: 300;
+    line-height: -.8;
 }
 #head3 {
     font-family: Matter-light;
-    font-size: 9vw;
+    font-size: 7vw;
     font-weight: 300;
+    line-height: -.8;
 }
 
 .bounding {
@@ -166,7 +173,7 @@ main {
 #herovideo {
     /* margin-top: 10vw; */
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     background-size: cover;
     background-position: 50% 0;
 }
@@ -180,6 +187,7 @@ main {
 #secondpage {
     /* margin-top: 12vh; */
     width: 100vw;
+    min-height: 60vh;
     
 }
 
@@ -188,7 +196,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 8vw;
+    gap: 6vw;
     padding: 0 10vw;
 }
 
@@ -206,6 +214,7 @@ main {
 }
 
 #righttextdiv {
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 4vw;
@@ -285,6 +294,7 @@ main {
     border: 0;
     border-radius: 0;
     outline: 0 !important;
+    transition: transform 0.3s, background-color 0.3s;
 }
 @media (min-width: 1200px) {
   .cb-btn_more {
@@ -363,6 +373,7 @@ main {
     
     border-radius: 50%;
     transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1),
+    
       border-radius 0.5s cubic-bezier(0.4, 0, 0, 1);
 }
 
@@ -377,7 +388,7 @@ main {
 @media (pointer: fine) {
     .cb-btn_more:hover .cb-btn_more-title span:after {
       transform: skewY(7deg);
-      transform: translateY(0%);
+      transform: translateY(0%) ;
     }
 }
 
@@ -693,7 +704,6 @@ main {
 #philodiv {
     display: flex;
     justify-content: center;
-    
     position: relative;
     top: -5.8vw;
     width: 100%;
@@ -704,8 +714,10 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10vw;
-
     padding-left: 10vw;
+}
+#philotitle {
+    padding-top: 6vw;
 }
 
 #philotitle h2 {
@@ -816,13 +828,13 @@ main {
     padding: 3vw 0vw;
     display: flex;
     justify-content: space-between;
-    gap: 5vw;
+    gap: 2vw;
     
 }
 
 .slide{
     display: inline-block;
-    width: 30%;   
+    width: 40%;   
 }
 .slide.active {
     cursor: grabbing;
@@ -830,7 +842,7 @@ main {
     transform: scale(1);
 }
 .slide .img {
-    width: 365px;
+    width: 465px;
     height: 260px;  
 }
 
@@ -843,17 +855,18 @@ main {
 
 
 .slide h3 {
-    margin-top: 2vw;
+    max-width: 400px;
+    margin-top: 1.5vw;
     font-family: Matter-reg;
-    font-size: 1.3vw;
+    font-size: 18px;
     font-weight: 300;
-    letter-spacing: -.05vw;
+    letter-spacing: .01vw;
     color: white;
 }
 
 #devsummary p {
     font-family: Matter-reg;
-    font-size: 1.6vw;
+    font-size: 1.2vw;
     font-weight: 400;
     color: white;
     width: 40%;
@@ -1033,9 +1046,9 @@ main {
   
 .videoplay4 {
     display: inline-block;
-    width: 167px;
-    height: 117px;
-    border-radius: 58.5px; 
+    width: 307px;
+    height: 197px;
+    border-radius: 120px; 
     overflow: hidden; 
     margin-right: 20px;
   }
@@ -1049,13 +1062,13 @@ main {
   
 .inspirerollfeature > h3 {
     font-family: Matter-light;
-    font-size: 12vw;
+    font-size: 9vw;
     font-weight: 500;
 }
 .inspirerollfeature span {
     font-family: Roboto-reg;
     font-weight: 400;
-    font-size: 12vw;
+    font-size: 9vw;
     font-stretch: 146%;
     font-variation-settings: "GRAD" -20,"slnt" -10,"YTLC" 553,"opsz" 93;
     letter-spacing: -.04em;
@@ -1075,7 +1088,7 @@ main {
     padding: 5vw 10vw;
     display: flex;
     flex-direction: row;
-    gap: 7vw;
+    gap: 2vw;
 }
 
 
@@ -1090,7 +1103,7 @@ main {
     width: 30%;   
 }
 .slide1 .img {
-    width: 365px;
+    width: 465px;
     height: 260px;  
 }
 
@@ -1110,20 +1123,21 @@ main {
 
 .slide1text h3 {
     font-family: Matter-reg;
-    font-size: 1vw;
+    font-size: 18px;
     font-weight: 300;
     letter-spacing: -.01vw;
     color: #161616ff;
 }
 .slide1text i {
-    margin-right: 0.5vw;
-    font-size: 1.5vw;
+    margin-right: 0.3vw;
+    font-size: .8vw;
     color: #161616ff;
 }
 
 #seventhsection {
     width: 100vw;
     min-height: 100vh;
+    background-color: #000;
 }
 
 #footer {
@@ -1272,6 +1286,7 @@ main {
     gap: 8vw;
     padding: 0 10vw;
     padding-bottom: 2vw;
+    background-color: rgb(3, 3, 3);
 }
 .footeraddleft {
     width: 30%;
@@ -1280,7 +1295,7 @@ main {
 
 .footeraddleft h5 {
     font-family: Matter-light;
-    font-size: 1.5vw;
+    font-size: 24px;
     line-height: 1.2;
     font-weight: 500;
 }
@@ -1291,10 +1306,11 @@ main {
 
 #eightsection {
     position: relative;
-    top: -9.99vw;
+    top: -10.99vw;
     width: 100%;
     min-height: 100vh;
-    background-color: black;
+    background-color: rgb(223, 98, 181);
+    
 }
 
 
@@ -1618,7 +1634,7 @@ main {
 
 #footerbottomright h5 {
     font-family: Matter-light;
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: 500;
     color: white;
 }
