@@ -146,10 +146,13 @@ function firstPageAnim() {
           delay: -1,       
           ease: Expo.easeInOut,
           stagger: .2
-      })
-      .to(".")
+      })     
 }
 
 firstPageAnim();
+
+var tl2  = gsap.timeline({
+
+})
 
 
