@@ -1502,12 +1502,10 @@ main {
     }
     @keyframes text_rounded {
         0% {
-          transform: translateY(100%); 
-          
+          transform: translateY(100%);   
         }
         100% {
-          transform: translateY(0);
-          
+          transform: translateY(0); 
         }
     }
 }
@@ -1515,8 +1513,7 @@ main {
 @media (pointer: fine) {
     .cb-btn_more3:hover .cb-btn_more-title3 span:after {
       transform: skewY(7deg);
-      transform: translateY(0%);
-      
+      transform: translateY(0%); 
       animation: text_rounded 0.5s cubic-bezier(0.19, 1, 0.22, 1);
     }
 
