@@ -147,6 +147,9 @@ function firstPageAnim() {
           ease: Expo.easeInOut,
           stagger: .2
       })
+      .to(".")
 }
 
 firstPageAnim();
+
+
