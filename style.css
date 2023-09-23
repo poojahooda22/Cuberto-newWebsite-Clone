@@ -1583,7 +1583,7 @@ main {
     display: block;
     font-family: Matter-reg;
     font-weight: 300;
-    font-size: 13rem;
+    font-size: 28px;
     text-align: center;
     transform-origin: left top;
     transition: color 0.2s, transform 0.4s;
