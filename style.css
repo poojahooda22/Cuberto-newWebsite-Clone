@@ -1636,8 +1636,18 @@ main {
 @media (pointer: fine) {
     .cb-btn_more4:hover .cb-btn_more-title4 span {
       
-      color: #ffffff;
+      
       transform: translateY(10%);
+      color: black;
+      animation: text_rounded 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    @keyframes text_rounded {
+        0% {
+          transform: translateY(100%);   
+        }
+        100% {
+          transform: translateY(0); 
+        }
     }
 }
 
