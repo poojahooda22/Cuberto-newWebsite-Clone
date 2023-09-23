@@ -1663,8 +1663,8 @@ main {
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
       border-radius: 0;
-      background: #000;
-      color: #fff;
+      background: #ffffff;
+      
       transform: translateY(0);
       transition-duration: 0s, 0s;
       animation: cb-checkbox_rounded-ripple-in 0.5s cubic-bezier(0.4, 0, 0, 1);
