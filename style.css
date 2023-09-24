@@ -1290,6 +1290,45 @@ main {
     padding: 3.5vw 0;
     border-bottom: 0.35px solid rgb(50, 50, 50);
 }
+/* .social1 {
+    background-color: red;
+} */
+
+.stripetwo {
+    
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+}
+
+.bgcnt {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.elem {
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 2vw;
+    flex-shrink: 0;
+}
+.elem h4 {
+    font-family: Matter-light;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #000;
+}
+.elem i {
+    font-size: 3vw;
+}
 
 .socialdiv {
     display: flex;
@@ -1306,7 +1345,7 @@ main {
     color: white;
 }
 .socialdiv i {
-    font-size: 2vw;
+    font-size: 3vw;
     color: white;
 }
 
