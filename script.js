@@ -236,25 +236,32 @@ function horizontalLoop(items, config) {
 
 //  animate social div
 
-var social = document.querySelector("#socialinsta");
-  
-social.addEventListener("mousemove", function() {
-    gsap.to(".stripetwo", {
-      height: "100%",
-      opacity: 1,
+
+document.querySelectorAll(".socialmaindiv")
+.forEach(function(socialmaindiv) {
+  socialmaindiv  
+  .addEventListener("mousemove", function() {
+      gsap.to(socialmaindiv.children[0], {
+        height: "100%",
+        opacity: 1,
+        ease: Expo,
+        duration: .3, 
+
+      });
+  })
+
+  socialmaindiv
+  .addEventListener("mouseleave", function() {
+    gsap.to(socialmaindiv.children[0], {
+      height: 0,
+      opacity: 0,
       ease: Expo,
       duration: .3,
 
     });
+  })
 })
 
 
-social.addEventListener("mouseleave", function() {
-  gsap.to(".stripetwo", {
-    height: 0,
-    opacity: 0,
-    ease: Expo,
-    duration: .3,
 
-  });
-})
+
