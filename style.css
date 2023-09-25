@@ -154,6 +154,21 @@ main {
     line-height: -.8;
 }
 #head3 {
+    display: none;
+    opacity: 0;
+    font-family: Matter-light;
+    font-size: 7vw;
+    font-weight: 300;
+    line-height: -.8;
+}
+
+#prodt h2 {
+    font-family: Matter-light;
+    font-size: 7vw;
+    font-weight: 300;
+    line-height: -.8;
+}
+#head4 {
     font-family: Matter-light;
     font-size: 7vw;
     font-weight: 300;
@@ -1763,5 +1778,44 @@ main {
 /* //responsive */
 
 @media (max-width: 500px) {
+
+    #nav {
+        padding: 4vw 2vw;
+    }
+    #nav img {
+        height: 20vw; 
+    }
+    #nav #right h4 {
+        display: none;
+    }
+    #nav #right i {
+        font-size: 6vw;
+    }
+    #firstpage-heading {
+        min-height: 60vh;
+        top: 10px;
+        left: 40px;   
+    }
+    #videoplay {
+        display: block;
+        width: 81px;
+        height: 55px;
+    }
+    #head1, #head2, #head3, #head4 {
+        font-size: 61px; 
+        
+    }
+    #prodt {
+        display: none;
+        width: 100%;
+    }
+    #head3 {
+        display: block;
+        opacity: 1;
+    }
+    #head4 {
+        display: none;
+        opacity: 0;
+    }
     
 }
