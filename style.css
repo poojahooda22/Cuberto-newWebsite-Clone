@@ -201,8 +201,8 @@ main {
 }
 
 #leftvideodiv {
-    width: 428px;
-    height: 428px;
+    width: 528px;
+    height: 528px;
 
 }
 
@@ -218,14 +218,14 @@ main {
     display: flex;
     flex-direction: column;
     gap: 4vw;
-    align-items: center;
+    /* align-items: center; */
 
 }
 
 #righttextdiv h3 {
     font-family: Matter-reg;
     font-weight: 500;
-    max-width: 25rem;
+    max-width: 500px;
     font-size: 1.8vw;
 }
 
@@ -485,10 +485,10 @@ main {
     letter-spacing: -.04em;
 }
 #featureimages {
-    margin-top: 15vw;
+    margin-top: 10vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5vw;
+    gap: 2vw;
     max-width: 106rem;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -509,8 +509,8 @@ main {
     
 }
 #featrcrdlft1 #leftimg1 {
-    width: 450px;
-    height: 600px;
+    width: 600px;
+    height: 800px;
     margin-bottom: 3vh;
 }
 #featrcrdlft1 #leftimg1  img {
