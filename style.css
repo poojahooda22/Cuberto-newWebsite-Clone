@@ -488,7 +488,7 @@ main {
     margin-top: 10vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2vw;
+    gap: 4vw;
     max-width: 106rem;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -533,8 +533,8 @@ main {
     
 }
 #featrcrdlft2 #leftimg2 {
-    width: 450px;
-    height: 450px;
+    width: 600px;
+    height: 600px;
     margin-bottom: 3vh;
 }
 #featrcrdlft2 #leftimg2  img {
@@ -556,8 +556,8 @@ main {
     
 }
 #featrcrdlft3 #leftimg3 {
-    width: 450px;
-    height: 600px;
+    width: 600px;
+    height: 800px;
     margin-bottom: 3vh;
 }
 #featrcrdlft3 #leftimg3  img {
@@ -580,8 +580,8 @@ main {
     
 }
 #featrcrdlft4 #leftimg4 {
-    width: 450px;
-    height: 450px;
+    width: 600px;
+    height: 600px;
     margin-bottom: 3vh;
 }
 #featrcrdlft4 #leftimg4  video {
@@ -603,8 +603,8 @@ main {
     
 }
 #featrcrdlft5 #leftimg5 {
-    width: 450px;
-    height: 450px;
+    width: 600px;
+    height: 600px;
     margin-bottom: 3vh;
 }
 #featrcrdlft5 #leftimg5  video {
@@ -633,8 +633,8 @@ main {
     margin-top: 20vw;
 }
 #featrcrdright1  #rightimg1 {
-    width: 450px;
-    height: 450px;
+    width: 600px;
+    height: 600px;
     margin-bottom: 3vh;
 }
 #featrcrdright1 #rightimg1  img {
@@ -656,8 +656,8 @@ main {
     
 }
 #featrcrdright2 #rightimg2 {
-    width: 450px;
-    height: 600px;
+    width: 600px;
+    height: 800px;
     margin-bottom: 3vh;
 }
 #featrcrdright2 #rightimg2  video {
@@ -680,8 +680,8 @@ main {
     
 }
 #featrcrdright3 #rightimg3 {
-    width: 450px;
-    height: 450px;
+    width: 600px;
+    height: 600px;
     margin-bottom: 3vh;
 }
 #featrcrdright3 #rightimg3 video {
@@ -704,8 +704,8 @@ main {
     
 }
 #featrcrdright4 #rightimg4 {
-    width: 450px;
-    height: 600px;
+    width: 600px;
+    height: 800px;
     margin-bottom: 3vh;
 }
 #featrcrdright4 #rightimg4 video {
@@ -747,6 +747,7 @@ main {
     font-family: Matter-light;
     font-size: 10vw;
     font-weight: 500;
+   
     color: #161616ff;
 }
 
@@ -768,8 +769,8 @@ main {
 }
 
 #philoleftvideo {
-    width: 428px;
-    height: 428px;
+    width: 628px;
+    height: 628px;
 
 }
 
@@ -791,7 +792,7 @@ main {
 #philorighttextdiv p {
     font-family: Matter-reg;
     font-weight: 500;
-    max-width: 25rem;
+    max-width: 700px;
     font-size: 1.6vw;
 }
 
