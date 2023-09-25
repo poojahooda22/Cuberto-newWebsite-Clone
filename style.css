@@ -1614,7 +1614,7 @@ main {
     border-radius: 0;
     outline: 0 !important;
 }
-@media (min-width: 1200px) {
+@media (min-width: 200px) {
   .cb-btn_more4 {
     height: 122px;
     padding: 24px 0px;
@@ -1652,7 +1652,7 @@ main {
     transition: color 0.2s, transform 0.4s;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 200px) {
     .cb-btn_more-title4 span {
       font-size: 28px;
       line-height: 1;
@@ -1754,4 +1754,12 @@ main {
     font-size: 1vw;
     font-weight: 500;
     color: white;
+}
+
+
+
+/* //responsive */
+
+@media (max-width: 500px) {
+    
 }
