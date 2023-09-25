@@ -234,10 +234,10 @@ main {
 #contact {
     position: fixed;
     top: 1100px; 
-    left: 1250px;
+    right: 50px;
     width: 150px;
     height: 150px;
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
     z-index: 1000; 
 }
 
@@ -819,7 +819,7 @@ main {
 
 
 
-#dev > h2 {
+#dev  h2 {
     font-family: Matter-reg;
     font-size: 9vw;
     font-weight: 200;
@@ -893,7 +893,7 @@ main {
     font-size: 1.2vw;
     font-weight: 400;
     color: white;
-    width: 40%;
+    max-width: 600px;
     line-height: 1.2;
     margin-bottom: 3vw;
 }
@@ -1080,8 +1080,8 @@ main {
   
 .videoplay4 {
     display: inline-block;
-    width: 307px;
-    height: 197px;
+    width: 297px;
+    height: 187px;
     border-radius: 120px; 
     overflow: hidden; 
     margin-right: 20px;
@@ -1096,13 +1096,13 @@ main {
   
 .inspirerollfeature > h3 {
     font-family: Matter-light;
-    font-size: 9vw;
+    font-size: 10vw;
     font-weight: 500;
 }
 .inspirerollfeature span {
     font-family: Roboto-reg;
     font-weight: 400;
-    font-size: 9vw;
+    font-size: 10vw;
     font-stretch: 146%;
     font-variation-settings: "GRAD" -20,"slnt" -10,"YTLC" 553,"opsz" 93;
     letter-spacing: -.04em;
@@ -1207,8 +1207,8 @@ main {
 }
 .videoplay5 {
     display: inline-block;
-    width: 167px;
-    height: 167px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%; 
     overflow: hidden; 
     margin-right: 20px;
@@ -1225,7 +1225,7 @@ main {
   
 .footertext {
     font-family: Matter-light;
-    font-size: 12vw;
+    font-size: 10vw;
     font-weight: 500;
     color: white;
 }
@@ -1305,7 +1305,7 @@ main {
     
     background-color: rgb(255, 255, 255);
     opacity: 0;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1).3s;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1).05s;
 }
 
 .bgcnt{
@@ -1316,7 +1316,7 @@ main {
 }
 .bgcnt > .elem {
     animation-name: anim1;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -1394,6 +1394,7 @@ main {
     font-family: Matter-light;
     font-size: 24px;
     line-height: 1.2;
+    max-width: 400px;
     font-weight: 500;
 }
 .footeraddleft button {
@@ -1605,8 +1606,8 @@ main {
 .cb-btn_more4 {
     position: relative;
     display: inline-block;
-    height: 122px;
-    width: 280px;
+    height: 172px;
+    width: 480px;
     margin: 0;
     padding: 0;
     color: white;
@@ -1617,7 +1618,7 @@ main {
 }
 @media (min-width: 200px) {
   .cb-btn_more4 {
-    height: 122px;
+    height: 172px;
     padding: 24px 0px;
     min-width: 280px;
     border-radius: 100px;
@@ -1655,9 +1656,9 @@ main {
 
 @media (min-width: 200px) {
     .cb-btn_more-title4 span {
-      font-size: 28px;
+      font-size: 72px;
       line-height: 1;
-      letter-spacing: .8vw;
+      letter-spacing: .2vw;
     }
 }
 
@@ -1752,7 +1753,7 @@ main {
 
 #footerbottomright h5 {
     font-family: Matter-light;
-    font-size: 1vw;
+    font-size: 16px;
     font-weight: 500;
     color: white;
 }
