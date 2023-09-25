@@ -913,7 +913,7 @@ main {
     border-radius: 0;
     outline: 0 !important;
 }
-@media (min-width: 1200px) {
+@media (min-width: 200px) {
   .cb-btn_more2 {
     height: 50px;
     padding: 0 0px;
@@ -951,7 +951,7 @@ main {
     transition: color 0.2s, transform 0.4s;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 200px) {
     .cb-btn_more-title2 span {
       font-size: 20px;
     }
