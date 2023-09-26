@@ -535,3 +535,24 @@ document.querySelector("#rightimg4").addEventListener("mouseleave", function() {
 //     pin: "#contact", // Element to pin
 //     pinSpacing: false // Adjust as needed
 // });
+
+
+// side navbar
+
+var mnu = document.querySelector(".menu");
+
+var close = document.querySelector(".close");
+
+var mnctn = document.querySelector("#main");
+var responsiveBar = document.querySelector(".resp-nav");
+
+mnu.addEventListener("click", function() {
+    responsiveBar.style.right = "0%";
+    mnctn.style.opacity = "0.8";
+
+})
+
+close.addEventListener("click", function() {
+    responsiveBar.style.right = "-100%";
+    mnctn.style.opacity = "1";
+})

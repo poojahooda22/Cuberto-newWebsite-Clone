@@ -83,10 +83,11 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2vw 2vw;
+    padding: 4vw 4vw;
 }
 #nav img {
     height: 4.5vw;
+    
 }
  #right {
     display: flex;
@@ -103,6 +104,107 @@ main {
     font-size: 1.6vw;
     margin-top: 3px;
 }
+
+
+.resp-nav {
+    position: absolute;
+    top: 0%;
+    right: -100%;
+    width: 50%;
+    height: 100%;
+    display: initial;
+    font-family: Matter-light;
+    font-size: 2vw;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10vw;
+    padding: 4vh 6vh;
+    background-color: #ffffff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.resp-top {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.resp-top i {
+    font-size: 2.5vw;
+}
+
+
+/* //new animation
+
+
+.chronicle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    line-height: 1;
+    width: 140px;
+    height: 48px;
+    border-radius: 50px;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: background .4s linear;
+    will-change: background;
+  }
+  
+
+  .chronicle a {
+    font-size: 10px;
+  }
+  .chronicle:hover {
+    border: 0.5px solid white;
+    
+  }
+  
+  .chronicle:hover span:nth-of-type(1) em {
+    opacity: 0;
+    transform: rotateX(90deg) scaleX(.9) translate3d(0,-10px,0);
+  }
+  
+  .chronicle:hover span:nth-of-type(2) em {
+    opacity: 1;
+    transform: rotateX(0deg) scaleX(1) translateZ(0);
+    transition: transform .75s cubic-bezier(.645,.045,.355,1),opacity .35s linear .3s;
+  }
+  
+  span {
+    position: relative;
+    display: block;
+    perspective: 108px;
+    
+  }
+  
+  span:nth-of-type(2) {
+    position: absolute;
+  }
+  
+  em {
+    font-style: normal;
+    display: inline-block;
+    font-size: 1.125rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    will-change: transform,opacity,transition;
+    transition: transform .55s cubic-bezier(.645,.045,.355,1),opacity .35s linear .2s;
+  }
+  
+  span:nth-of-type(1) em {
+    transform-origin: top;
+  }
+  
+  span:nth-of-type(2) em {
+    opacity: 0;
+    transform: rotateX(-90deg) scaleX(.9) translate3d(0,10px,0);
+    transform-origin: bottom;
+  } */
 
 #firstpage-heading {
     display: flex;
@@ -1885,6 +1987,12 @@ main {
 /* //responsive */
 
 @media (max-width: 500px) {
+    #contact {
+        display: none;
+    }
+    #main {
+        overflow-x: hidden;
+    }
     #firstsection {
         min-height: 60vh;
     }
