@@ -51,7 +51,7 @@ main {
 
 #firstsection {
     width: 100vw;
-    min-height: 120vh;
+    min-height: 100vh;
 }
 #secondsection {
     margin-top: 15vw;
@@ -188,7 +188,7 @@ main {
 #herovideo {
     /* margin-top: 10vw; */
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
     background-position: 50% 0;
 }
