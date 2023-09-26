@@ -2287,7 +2287,8 @@ main {
         padding: 0 16px;
     }
     .socialdiv h4 {
-        font-size: 18px;
+        font-size: 20px;
+        font-weight: 600;
     }
     .socialdiv i {
         font-size: 24px;
@@ -2306,10 +2307,11 @@ main {
         width: 80%;
     }
     .footeraddleft h5 {
-        font-size: 18px;
+        font-size: 16px;
     }
     .footeraddleft .cb-btn_more3 {
         margin-top: 24px;
+        width: 195px;
     }
     .cb-btn_more4 {
         width: 300px;
