@@ -1,31 +1,31 @@
 @font-face {
     font-family: font-1;
-    src: url(./vertopal.com_CircularXXWeb-Book\ \(1\).ttf);
+    src: url(./fonts/vertopal.com_CircularXXWeb-Book\ \(1\).ttf);
 }
 
 @font-face {
     font-family: font-Bold;
-    src: url(./vertopal.com_KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.ttf);
+    src: url(./fonts/vertopal.com_KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.ttf);
 }
 
 @font-face {
     font-family: font-3;
-    src: url(./vertopal.com_KFOmCnqEu92Fr1Mu4mxKKTU1Kg.ttf);
+    src: url(./fonts/vertopal.com_KFOmCnqEu92Fr1Mu4mxKKTU1Kg.ttf);
 }
 
 @font-face {
     font-family: Matter-reg;
-    src: url(./vertopal.com_matter-regular.ttf);
+    src: url(./fonts/vertopal.com_matter-regular.ttf);
 }
 
 @font-face {
     font-family: Roboto-reg;
-    src: url(./vertopal.com_roboto-flex-variable-full.ttf);
+    src: url(./fonts/vertopal.com_roboto-flex-variable-full.ttf);
 }
 
 @font-face {
     font-family: Matter-light;
-    src: url(./vertopal.com_matter-light.ttf);
+    src: url(./fonts/vertopal.com_matter-light.ttf);
 }
 
 * {
@@ -523,11 +523,23 @@ main {
     
 }
 #featrcrdlft1 #leftimg1 {
+    position: relative;
     width: 600px;
     height: 800px;
     margin-bottom: 3vh;
 }
 #featrcrdlft1 #leftimg1  img {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+#featrcrdlft1 #leftimg1 video {
+    position: absolute; /* Add absolute positioning */
+    top: 0;
+    left: 0;
+    opacity: 0; 
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -547,11 +559,23 @@ main {
     
 }
 #featrcrdlft2 #leftimg2 {
+    position: relative; 
     width: 600px;
     height: 600px;
     margin-bottom: 3vh;
 }
 #featrcrdlft2 #leftimg2  img {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+#featrcrdlft2 #leftimg2  video {
+    position: absolute; /* Add absolute positioning */
+    top: 0;
+    left: 0;
+    opacity: 0; 
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -570,17 +594,28 @@ main {
     
 }
 #featrcrdlft3 #leftimg3 {
+    position: relative; 
     width: 600px;
     height: 800px;
     margin-bottom: 3vh;
 }
 #featrcrdlft3 #leftimg3  img {
+    position: relative; 
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
 }
-
+#featrcrdlft3 #leftimg3  video {
+    position: absolute; /* Add absolute positioning */
+    top: 0;
+    left: 0;
+    opacity: 0; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
 #featrcrdlft3 h4 {
     font-size: 1.4vw;
     font-family: Matter-light;
@@ -594,11 +629,23 @@ main {
     
 }
 #featrcrdlft4 #leftimg4 {
+    position: relative; 
     width: 600px;
     height: 600px;
     margin-bottom: 3vh;
 }
+#featrcrdlft4 #leftimg4  img {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
 #featrcrdlft4 #leftimg4  video {
+    position: absolute; /* Add absolute positioning */
+    top: 0;
+    left: 0;
+    opacity: 0; 
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -617,11 +664,23 @@ main {
     
 }
 #featrcrdlft5 #leftimg5 {
+    position: relative; 
     width: 600px;
     height: 600px;
     margin-bottom: 3vh;
 }
+#featrcrdlft5 #leftimg5  img {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
 #featrcrdlft5 #leftimg5  video {
+    position: absolute; /* Add absolute positioning */
+    top: 0;
+    left: 0;
+    opacity: 0; 
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -647,11 +706,23 @@ main {
     margin-top: 20vw;
 }
 #featrcrdright1  #rightimg1 {
+    position: relative; 
     width: 600px;
     height: 600px;
     margin-bottom: 3vh;
 }
 #featrcrdright1 #rightimg1  img {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+#featrcrdright1 #rightimg1  video {
+    position: absolute; /* Add absolute positioning */
+    top: 0;
+    left: 0;
+    opacity: 0; 
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -670,11 +741,23 @@ main {
     
 }
 #featrcrdright2 #rightimg2 {
+    position: relative; 
     width: 600px;
     height: 800px;
     margin-bottom: 3vh;
 }
+#featrcrdright2 #rightimg2  img {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
 #featrcrdright2 #rightimg2  video {
+    position: absolute; /* Add absolute positioning */
+    top: 0;
+    left: 0;
+    opacity: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -694,11 +777,23 @@ main {
     
 }
 #featrcrdright3 #rightimg3 {
+    position: relative; 
     width: 600px;
     height: 600px;
     margin-bottom: 3vh;
 }
+#featrcrdright3 #rightimg3  img {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
 #featrcrdright3 #rightimg3 video {
+    position: absolute; /* Add absolute positioning */
+    top: 0;
+    left: 0;
+    opacity: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -718,11 +813,23 @@ main {
     
 }
 #featrcrdright4 #rightimg4 {
+    position: relative; 
     width: 600px;
     height: 800px;
     margin-bottom: 3vh;
 }
+#featrcrdright4 #rightimg4  img {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
 #featrcrdright4 #rightimg4 video {
+    position: absolute; /* Add absolute positioning */
+    top: 0;
+    left: 0;
+    opacity: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;

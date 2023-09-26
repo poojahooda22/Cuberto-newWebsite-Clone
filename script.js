@@ -262,6 +262,265 @@ document.querySelectorAll(".socialmaindiv")
   })
 })
 
+//1st left card animation
+
+document.querySelector("#leftimg1").addEventListener("mousemove", function() {
+  gsap.to("#leftimg1 video", {
+    opacity: 1,
+    
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+  .to("#leftimg1 img", {
+    opacity: 0,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+}) 
+
+document.querySelector("#leftimg1").addEventListener("mouseleave", function() {
+  gsap.to("#leftimg1 video", {
+    opacity: 0,
+    
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+  gsap.to("#leftimg1 img", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+});
 
 
+//2nd left card animation
 
+document.querySelector("#leftimg2").addEventListener("mousemove", function() {
+  gsap.to("#leftimg2 video", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+  .to("#leftimg2 img", {
+    opacity: 0,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+}) 
+
+document.querySelector("#leftimg2").addEventListener("mouseleave", function() {
+  gsap.to("#leftimg2 video", {
+    opacity: 0,
+    
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+  gsap.to("#leftimg2 img", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+});
+
+
+//3rd left card animation
+
+document.querySelector("#leftimg3").addEventListener("mousemove", function() {
+  gsap.to("#leftimg3 video", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+  .to("#leftimg3 img", {
+    opacity: 0,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+}) 
+
+document.querySelector("#leftimg3").addEventListener("mouseleave", function() {
+  gsap.to("#leftimg3 video", {
+    opacity: 0,
+    
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+  gsap.to("#leftimg3 img", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+});
+
+//4th left card animation
+
+document.querySelector("#leftimg4").addEventListener("mousemove", function() {
+  gsap.to("#leftimg4 video", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+  .to("#leftimg4 img", {
+    opacity: 0,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+}) 
+
+document.querySelector("#leftimg4").addEventListener("mouseleave", function() {
+  gsap.to("#leftimg4 video", {
+    opacity: 0,
+    
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+  gsap.to("#leftimg4 img", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+});
+
+//5th left card animation
+
+document.querySelector("#leftimg5").addEventListener("mousemove", function() {
+  gsap.to("#leftimg5 video", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+  .to("#leftimg5 img", {
+    opacity: 0,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+}) 
+
+document.querySelector("#leftimg5").addEventListener("mouseleave", function() {
+  gsap.to("#leftimg5 video", {
+    opacity: 0,
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+  gsap.to("#leftimg5 img", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+});
+
+//1st right card animation
+
+document.querySelector("#rightimg1").addEventListener("mousemove", function() {
+  gsap.to("#rightimg1 video", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+  .to("#rightimg1 img", {
+    opacity: 0,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+}) 
+
+document.querySelector("#rightimg1").addEventListener("mouseleave", function() {
+  gsap.to("#rightimg1 video", {
+    opacity: 0,
+    
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+  gsap.to("#rightimg1 img", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+});
+
+//2nd right card animation
+
+document.querySelector("#rightimg2").addEventListener("mousemove", function() {
+  gsap.to("#rightimg2 video", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+  .to("#rightimg2 img", {
+    opacity: 0,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+}) 
+
+document.querySelector("#rightimg2").addEventListener("mouseleave", function() {
+  gsap.to("#rightimg2 video", {
+    opacity: 0,
+    
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+  gsap.to("#rightimg2 img", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+});
+
+//3rd right card animation
+
+document.querySelector("#rightimg3").addEventListener("mousemove", function() {
+  gsap.to("#rightimg3 video", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+  .to("#rightimg3 img", {
+    opacity: 0,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+}) 
+
+document.querySelector("#rightimg3").addEventListener("mouseleave", function() {
+  gsap.to("#rightimg3 video", {
+    opacity: 0,
+    
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+  gsap.to("#rightimg3 img", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+});
+
+//4th right card animation
+
+document.querySelector("#rightimg4").addEventListener("mousemove", function() {
+  gsap.to("#rightimg4 video", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+  .to("#rightimg4 img", {
+    opacity: 0,
+    ease: "Expo.easeOut",
+    duration: .3,
+  })
+}) 
+
+document.querySelector("#rightimg4").addEventListener("mouseleave", function() {
+  gsap.to("#rightimg4 video", {
+    opacity: 0,
+    
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+  gsap.to("#rightimg4 img", {
+    opacity: 1,
+    ease: "Expo.easeOut",
+    duration: 0.3,
+  });
+});
