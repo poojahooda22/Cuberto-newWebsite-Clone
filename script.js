@@ -61,6 +61,11 @@ const cursor = new MouseFollower({
   speed: 0.8,
 });
 
+if (window.matchMedia("(min-width: 400px)").matches) {
+  // Hide the cursor
+  cursor.hide();
+}
+
 
 // drag horizontal animation 1st
 
