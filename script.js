@@ -524,3 +524,14 @@ document.querySelector("#rightimg4").addEventListener("mouseleave", function() {
     duration: 0.3,
   });
 });
+
+// gsap.registerPlugin(ScrollTrigger);
+
+// // Pin the contact div when it reaches a specific trigger element
+// ScrollTrigger.create({
+//     trigger: "#main", // Adjust this to your trigger element
+//     start: "right bottom", // Adjust the trigger start position
+//     end: "bottom top", // Adjust the trigger end position
+//     pin: "#contact", // Element to pin
+//     pinSpacing: false // Adjust as needed
+// });

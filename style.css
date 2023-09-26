@@ -28,6 +28,12 @@
     src: url(./fonts/vertopal.com_matter-light.ttf);
 }
 
+[data-cursor-text] {
+    font-family: Matter-light;
+    font-size: 16px;
+    font-weight: 300;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +50,8 @@ main {
     background-color: rgb(3, 3, 3);
 }
 
-#scroll-content {
+#scrollcontent {
+    position: relative;
     min-height: 100vh;   
 }
 
@@ -79,7 +86,7 @@ main {
     padding: 2vw 2vw;
 }
 #nav img {
-    height: 3.8vw;
+    height: 4.5vw;
 }
  #right {
     display: flex;
@@ -93,7 +100,7 @@ main {
     font-weight: 400;
 }
 #nav #right i {
-    font-size: 1.2vw;
+    font-size: 1.6vw;
     margin-top: 3px;
 }
 
@@ -248,7 +255,7 @@ main {
 
 #contact {
     position: fixed;
-    top: 1100px; 
+    bottom: 0; 
     right: 50px;
     width: 150px;
     height: 150px;
@@ -1391,7 +1398,7 @@ main {
     padding: 0 10vw;
     margin-top: 8vw;
     width: 100%;
-    height: 50px;
+    height: 60px;
     border-bottom: 1px solid rgb(50, 50, 50);
 }
 #socialheading {
