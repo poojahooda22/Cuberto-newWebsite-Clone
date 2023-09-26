@@ -79,7 +79,7 @@ main {
     padding: 2vw 2vw;
 }
 #nav img {
-    height: 3.5vw;
+    height: 3.8vw;
 }
  #right {
     display: flex;
@@ -352,7 +352,6 @@ main {
 @media (min-width: 200px) {
     .cb-btn_more-title span {
       font-size: 26px;
-      
     }
 }
 
@@ -752,11 +751,9 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10vw;
-    padding-left: 10vw;
+    padding: 10vw 10vw;
 }
-#philotitle {
-    padding-top: 6vw;
-}
+
 
 #philotitle h2 {
     font-family: Matter-light;
@@ -832,8 +829,6 @@ main {
     padding-bottom: 12vh;
 }
 
-
-
 #dev  h2 {
     font-family: Matter-reg;
     font-size: 9vw;
@@ -866,7 +861,7 @@ main {
     cursor: pointer;
     padding: 3vw 0vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: row;
     gap: 2vw;
     
 }
@@ -969,7 +964,7 @@ main {
 
 @media (min-width: 200px) {
     .cb-btn_more-title2 span {
-      font-size: 20px;
+      font-size: 18px;
     }
 }
 
@@ -1152,7 +1147,7 @@ main {
     width: 30%;   
 }
 .slide1 .img {
-    width: 465px;
+    width: 425px;
     height: 260px;  
 }
 
@@ -1421,9 +1416,7 @@ main {
     position: relative;
     top: -10.99vw;
     width: 100%;
-    min-height: 100vh;
-    background-color: rgb(223, 98, 181);
-    
+    min-height: 100vh;   
 }
 
 
@@ -1780,7 +1773,8 @@ main {
 @media (max-width: 500px) {
 
     #nav {
-        padding: 4vw 2vw;
+        padding: 10vw 0;
+        padding-right: 4vw;
     }
     #nav img {
         height: 20vw; 
@@ -1794,7 +1788,7 @@ main {
     #firstpage-heading {
         min-height: 60vh;
         top: 10px;
-        left: 40px;   
+        left: 20px;   
     }
     #videoplay {
         display: block;
@@ -1802,8 +1796,7 @@ main {
         height: 55px;
     }
     #head1, #head2, #head3, #head4 {
-        font-size: 61px; 
-        
+        font-size: 58px; 
     }
     #prodt {
         display: none;
@@ -1812,10 +1805,244 @@ main {
     #head3 {
         display: block;
         opacity: 1;
+        letter-spacing: -1;
     }
     #head4 {
         display: none;
         opacity: 0;
     }
+    #herovideo {
+        margin-top: 10vw;
+        height: 60vh;
+    }
+    #videohead3 {
+        padding: 0 16px;
+        flex-direction: column;
+        gap: 4vh;
+    }
+    #leftvideodiv {
+        width: 350px;
+        height: 350px;
+    }
+    #righttextdiv {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 12vw;
+    }
+    #righttextdiv h3 {
+        font-size: 26px;     
+    }
+    .cb-btn_more {
+        width: 320px;
+        height: 157px;
+        font-size: 16px;
+    }
+    #featuresection {
+        margin-top: 10vh;
+        border-radius: 0;
+    }
+    #featureheader {
+        padding-top: 12vw;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    #featureheader h2 {
+        font-size: 68px;
+    }
+    #videoplay2 {
+        width: 100px;
+        height: 62px;
+    }
+    #videofeature h3 {
+        font-size: 62px;
+    }
+    #featureimages {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 16px; 
+        padding-bottom: 32px;
+        gap: 6vh;
+    }
+    #featureimagesleft {
+        width: 100%;
+        gap: 45px;  
+    }
+    #featureimagesright {
+        margin-top: 0;
+        gap: 45px; 
+    }
+    #featrcrdlft1 #leftimg1{
+        width: 343px;
+        height: 520px;
+    }
+    #featrcrdlft2 #leftimg2 {
+        width: 343px;
+        height: 343px;
+    }
+    #featrcrdlft3 #leftimg3 {
+        width: 343px;
+        height: 520px;
+    }
+    #featrcrdlft4 #leftimg4 {
+        width: 343px;
+        height: 343px;
+    }
+    #featrcrdlft5 #leftimg5 {
+        width: 343px;
+        height: 343px;
+    }
+    #featrcrdright1 {
+        margin-top: 0;
+    }
+    #featrcrdright1 #rightimg1 {
+        
+        width: 343px;
+        height: 343px;
+    }
+    #featrcrdright2 #rightimg2 {
+        width: 343px;
+        height: 520px;
+    }
+    #featrcrdright3 #rightimg3 {
+        width: 343px;
+        height: 343px;
+    }
+    #featrcrdright4 #rightimg4 {
+        width: 343px;
+        height: 520px;
+    }
+
+    #featrcrdlft1 h4 {
+        font-size: 18px;
+    }
+    #featrcrdlft2 h4 {
+        font-size: 18px;
+    }
+    #featrcrdlft3 h4 {
+        font-size: 18px;
+    }
+    #featrcrdlft4 h4 {
+        font-size: 18px;
+    }
+    #featrcrdlft5 h4 {
+        font-size: 18px;
+    }
+    #featrcrdright1 h4 {
+        font-size: 18px;
+    }
+    #featrcrdright2 h4 {
+        font-size: 18px;
+    }
+    #featrcrdright3 h4 {
+        font-size: 18px;
+    }
+    #featrcrdright4 h4 {
+        font-size: 18px;
+    }
+    #philodiv {
+        border-radius:  0;
+        padding: 67px 16px;
+    }
+    #philotitle h2 {
+        padding-top: 0;
+        font-size: 68px;
+    }
+    #philotitle span {
+        font-size: 62px;
+    }
+    #philosummary {
+        flex-direction: column;
+    }
+    #philoleftvideo {
+        width: 360px;
+        height: 360px;
+    }
+    #philorighttextdiv p {
+        width: 100%;
+        font-size: 18px;
+    }
+    #developsec {
+        gap: 14vw;
+        width: 100%;
+        border-radius: 0;
+        padding: 67px 16px;
+    }
+    #dev h2 {
+        width: 100%; 
+        font-size: 54px;
+        line-height: 1;
+    }
+    #dev h2 span{
+        font-size: 54px;
+    }
+    .slide {
+        width: 100%;
+    }
     
+    .slide .img {
+        width: 331px;
+        height: 180px;
+    }
+    .slide h3 {
+        max-width: 60px;
+        margin-top: 18px;
+        font-size: 16px;  
+    }
+    #slides  {
+        overflow-x: auto;
+        /* width: 100%; */
+        gap: 8vw;
+    }
+    #devsummary p {
+        font-size: 18px;
+    }
+    .cb-btn_more2 {
+        margin-top: 16px;
+        width: 185px;
+        height: 42px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+    }
+    .slide1 {
+        width: 100%;
+    }
+    
+    .slide1 .img {
+        width: 253px;
+        height: 180px;
+    }
+    .slide1text {
+        margin-top: 4vw;
+    }
+    .slide1text h3 {
+        max-width: 60px;
+        font-size: 16px;  
+    }
+
+    .slide1text i {
+        font-size: 16px;
+    }
+    #slides1  {
+        overflow-x: auto;
+        /* width: 100%; */
+        gap: 10vw;
+    }
+    .videoplay4 {
+        width: 123px;
+        height: 76px;
+    }
+    #inspireroll {
+        margin-top: 15vw;
+    }
+    .inspirerollfeature h3 {
+        font-size: 82px;
+    }
+    .inspirerollfeature h3 span {
+        font-size: 82px;
+    }
+    .videoplay5 {
+        width: 80px;
+        height: 80px;
+    }
 }
