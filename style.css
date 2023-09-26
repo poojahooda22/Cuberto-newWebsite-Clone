@@ -2048,4 +2048,7 @@ main {
     .footertext {
         font-size: 57px;
     }
+    #footer {
+        padding-top: 15vw;
+    }
 }
