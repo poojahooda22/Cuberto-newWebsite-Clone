@@ -2042,7 +2042,10 @@ main {
         font-size: 82px;
     }
     .videoplay5 {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
+    } 
+    .footertext {
+        font-size: 57px;
     }
 }
