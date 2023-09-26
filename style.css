@@ -1027,7 +1027,7 @@ main {
     padding: 0;
     color: inherit;
     background: #fff;
-    border: none;
+    border: 1px solid white;
     border-radius: 0;
     outline: 0 !important;
 }
@@ -1878,7 +1878,9 @@ main {
 /* //responsive */
 
 @media (max-width: 500px) {
-
+    #firstsection {
+        min-height: 60vh;
+    }
     #nav {
         padding: 10vw 0;
         padding-right: 4vw;
