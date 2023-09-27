@@ -61,7 +61,7 @@ const cursor = new MouseFollower({
   speed: 0.8,
 });
 
-if (window.matchMedia("(max-width: 400px)").matches) {
+if (window.matchMedia("(max-width: 640px)").matches) {
   // Hide the cursor
   cursor.hide();
 }
