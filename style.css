@@ -1590,7 +1590,6 @@ main {
     overflow: hidden;
     bottom: 0;
     left: 0;
-    
     background-color: rgb(255, 255, 255);
     opacity: 0;
     transition: all cubic-bezier(0.19, 1, 0.22, 1).05s;
