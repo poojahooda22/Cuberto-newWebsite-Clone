@@ -122,19 +122,81 @@ main {
     justify-content: space-between;
     gap: 10vw;
     padding: 4vh 6vh;
-    background-color: #ffffff;
+    background-color: #000000;
+    color: white;
     transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
 }
 .resp-top {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-   
+    align-items: center;   
+}
+
+.resp-top img {
+    display: none;
 }
 .resp-top i {
     font-size: 2.5vw;
 }
+.resp-cntr {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+}
+.resp-left {
+    width: 25%;
+    display: flex;
+    flex-direction: column; 
+
+}
+.resp-left  h5 {
+    font-family: Matter-light;
+    font-size: 1.4vw;
+    font-weight: 300;
+    margin-bottom: 2vw; 
+    color: gray;
+}
+.resp-left  a {
+    text-decoration: none;
+    color: white;
+    font-family: Matter-light;
+    font-size: 1vw;
+    font-weight: 300;
+    margin-bottom: 2.5vw; 
+}
+.resp-rght {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+.resp-rght h5 {
+    font-family: Matter-light;
+    font-size: 1.4vw;
+    font-weight: 300;
+    margin-bottom: 2vw; 
+    color: gray;
+}
+.resp-rght  a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: Matter-light;
+    font-size: 2vw;
+    font-weight: 300;
+    margin-bottom: 2vw; 
+}
+.resp-btm h4 {
+    font-family: Matter-light;
+    font-size: 1vw;
+    font-weight: 300;
+    color: gray;
+}
+.resp-btm > a {
+    font-size: 1.4vw;
+    font-weight: 300;
+}
 
 /* //new animation
 
@@ -1998,7 +2060,7 @@ main {
     }
     #nav {
         padding: 10vw 0;
-        padding-right: 4vw;
+        padding-right: 6vw;
     }
     #nav img {
         height: 20vw; 
@@ -2008,6 +2070,57 @@ main {
     }
     #nav #right i {
         font-size: 6vw;
+    }
+    .resp-nav {
+        width: 100%;
+        padding: 24px 24px;
+        background-color: #fff;
+        color: black;
+    }
+    .resp-top {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .resp-top img {
+        height: 20vw;
+    }
+    .resp-top i {
+        font-size: 28px;
+    }
+    .resp-left {
+        display: none;
+    }
+    .resp-cntr {
+        width: 100%;
+    }
+    .resp-rght {
+        display: grid;
+        grid-template-columns:  1fr;
+    }
+    .resprghtprj {
+        display: block;
+    }
+    .resp-rght h5 {
+        font-size: 18px;
+        margin-bottom: 10vw;
+        
+    }
+    .resp-rht1 a {
+        display: block;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 4vw;
+        color: black;
+    }
+
+    .resp-btm h4 {
+        font-size: 16px;
+        margin-bottom: 1vw;
+    }
+    .resp-btm a {
+        font-size: 18px;
     }
     #firstpage-heading {
         min-height: 60vh;

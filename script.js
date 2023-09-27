@@ -61,7 +61,7 @@ const cursor = new MouseFollower({
   speed: 0.8,
 });
 
-if (window.matchMedia("(min-width: 400px)").matches) {
+if (window.matchMedia("(max-width: 400px)").matches) {
   // Hide the cursor
   cursor.hide();
 }
@@ -553,11 +553,10 @@ var responsiveBar = document.querySelector(".resp-nav");
 
 mnu.addEventListener("click", function() {
     responsiveBar.style.right = "0%";
-    mnctn.style.opacity = "0.8";
-
+    
 })
 
 close.addEventListener("click", function() {
     responsiveBar.style.right = "-100%";
-    mnctn.style.opacity = "1";
+    
 })
