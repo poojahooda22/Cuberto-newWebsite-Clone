@@ -1953,7 +1953,7 @@ main {
     display: block;
     position: absolute;
     top: 150%;
-    left: 0;
+    /* left: 0; */
     transform: skewY(5deg);
     text-align: center;
     transform-origin: left top;
