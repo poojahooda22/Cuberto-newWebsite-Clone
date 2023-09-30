@@ -1955,8 +1955,8 @@ main {
     top: 150%;
     left: 0;
     transform: skewY(5deg);
-    /* text-align: center;
-    transform-origin: left top; */
+    text-align: center;
+    transform-origin: left top;
     transition: transform 0.4s;
 }
 
