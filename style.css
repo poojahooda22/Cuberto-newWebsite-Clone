@@ -1950,7 +1950,7 @@ main {
 
 .cb-btn_more-title4 span:after {
     content: attr(data-text);
-    /* display: block; */
+    display: block;
     position: absolute;
     top: 150%;
     left: 0;
