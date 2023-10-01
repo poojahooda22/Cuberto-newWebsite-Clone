@@ -50,11 +50,11 @@ window.addEventListener('load', setScrollContentHeight);
 // Call the function whenever the window is resized
 window.addEventListener('resize', setScrollContentHeight);
 
-$('.slide1').ripples({
-  resolution: 512,
-  dropRadius: 30,
-  perturbance: 0.08,
-})
+// $('.slide1').ripples({
+//   resolution: 512,
+//   dropRadius: 30,
+//   perturbance: 0.08,
+// })
 
 const cursor = new MouseFollower({
   container: document.body,
