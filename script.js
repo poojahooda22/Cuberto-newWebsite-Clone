@@ -250,7 +250,7 @@ document.querySelectorAll(".socialmaindiv")
         height: "100%",
         opacity: 1,
         ease: Expo,
-        duration: .3, 
+        // duration: .3, 
 
       });
   })
