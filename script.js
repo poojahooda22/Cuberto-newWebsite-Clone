@@ -279,7 +279,7 @@ document.querySelector("#leftimg1").addEventListener("mousemove", function() {
   .to("#leftimg1 img", {
     opacity: 0,
     ease: "Expo.easeOut",
-    duration: .3,
+    duration: .4,
   })
 }) 
 
