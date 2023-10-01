@@ -261,7 +261,7 @@ document.querySelectorAll(".socialmaindiv")
       height: 0,
       opacity: 0,
       ease: Expo,
-      // duration: .3,
+      duration: .3,
 
     });
   })
