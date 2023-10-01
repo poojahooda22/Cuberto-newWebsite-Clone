@@ -273,7 +273,7 @@ document.querySelector("#leftimg1").addEventListener("mousemove", function() {
   gsap.to("#leftimg1 video", {
     opacity: 1,
     
-    ease: "Expo.easeOut",
+    // ease: "Expo.easeOut",
     duration: .3,
   })
   .to("#leftimg1 img", {
