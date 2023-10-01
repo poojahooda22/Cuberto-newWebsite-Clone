@@ -260,7 +260,7 @@ document.querySelectorAll(".socialmaindiv")
     gsap.to(socialmaindiv.children[0], {
       height: 0,
       opacity: 0,
-      // ease: Expo,
+      ease: Expo,
       // duration: .3,
 
     });
