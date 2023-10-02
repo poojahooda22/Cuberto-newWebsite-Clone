@@ -1969,7 +1969,7 @@ main {
     bottom: 0;
     z-index: 1;
     overflow: hidden;
-    transform: translateZ(0);
+    
     border-radius: inherit;
 }
 
