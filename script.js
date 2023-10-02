@@ -292,7 +292,7 @@ document.querySelector("#leftimg1").addEventListener("mouseleave", function() {
   });
   gsap.to("#leftimg1 img", {
     opacity: 1,
-    // ease: "Expo.easeOut",
+    ease: "Expo.easeOut",
     duration: 0.3,
   });
 });
