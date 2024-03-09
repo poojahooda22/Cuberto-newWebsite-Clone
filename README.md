@@ -2,6 +2,10 @@ Cuberto Clone with HTML, CSS, Javascript, GSAP, Locomotive
 
 
 
+https://github.com/poojahooda22/Cuberto-newWebsite-Clone/assets/91055527/92f42f32-3cf7-4040-99c7-564f423db6bc
+
+
+
 
 
 
